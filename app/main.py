@@ -3,8 +3,6 @@ from starlette.responses import Response
 import io
 from pathlib import Path
 from fastapi.responses import StreamingResponse
-from app.db.models import UserAnswer
-from app.api import api
 from fastapi import FastAPI, File, UploadFile, Form
 from pdf2image import convert_from_bytes
 import spacy
